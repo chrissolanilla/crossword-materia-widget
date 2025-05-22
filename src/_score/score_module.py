@@ -47,7 +47,7 @@ class Crossword(ScoreModule):
 
         question = self.questions[item_id]
         if not question["answers"]:
-            print(f"⚠️ No answers found for question with id {item_id}.")
+            print(f"No answers found for question with id {item_id}.")
             return 0
 
         correct_text = question["answers"][0]["text"]
